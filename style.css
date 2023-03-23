@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+}
+.material-symbols-outlined {
+    cursor: pointer;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.width-fit-content{
+    width:fit-content;
+}
+.oveflow_x_scroll{
+    overflow-x:scroll;
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position:absolute;
+}
+.d-none{
+    display: none;
+}
+.arrow_back{
+    display: flex;
+    padding: 5px 5px;
+}
+.more_vert{
+    cursor: pointer;
+}
+.more_option{
+    width:fit-content;
+    height: fit-content;
+    padding: 10px;
+    font-size: 1.2rem;
+    border:2px solid #9854ff;
+    border-radius: 5px;
+    position:absolute;
+    right: 2%;
+    background-color: #ffffff;
+    z-index: 5;
+}
+.menu{
+    cursor: pointer;
+    color:#1245aa;
+}
+.menu_bar{
+    border: 2px solid #793423;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+.menu_list{
+    width: 100px;
+    height: fit-content;
+    padding: 10px;
+    font-size: 1.2rem;
+    border:2px solid #9854ff;
+    border-radius: 5px;
+    position:absolute;
+    right: 1%;
+    background-color: #ffffff;
+    z-index: 5;
+}
+.menu_show{
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+button{
+    outline: none;
+    border:3px solid #12aa45;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    color:#12aa45;
+    cursor:pointer;
+    font-weight: 500;
+}
+button:hover{
+    background: #12aa45;
+    color: #ffffff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid orange; */
+}
+.container .create_file{
+    width:99vw;
+    height: 99vh;
+}
+h2 {
+    /* margin-top: 20px; */
+    color: #d4a174;
+    background-color: rgb(81, 97, 120,.25);
+    padding: 5px;
+    border-radius: 5px;
+}
+.container .form_files{
+    width: 100%;
+    height: 92%;
+}
+.container form{
+    padding: 1%;
+    width:98%;
+    height:95%;
+    /* border: 2px solid red; */
+}
+.container form .file_desc{
+    display: flex;
+    background: #555555;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.container form .file_desc >div{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.container form .file_content{
+    width:100%;
+    height:90%;
+}
+.container form input[type="text"]{
+    outline: none;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    /* width:50%; */
+}
+
+.container form textarea{
+    outline: none;
+    font-size: 1.1rem;
+    width: 98%;
+    height:98%;
+    padding: 1%;
+    /* border:1px solid #12aa45; */
+    border-radius: 5px; 
+    border:none;
+    margin-top: 5px;
+    background:#555555;
+    color:#fff;
+}
+.container form input[type="submit"]{
+    outline: none;
+    border:3px solid #1245aa;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    color:#1245aa;
+    cursor:pointer;
+    font-weight: 500;
+    
+}
+.container form input[type="submit"]:hover{
+    background-color: #1245aa;
+    color: white;
+}
+
+.container form label{
+    padding-right: 5px;
+}
+.container form select ,option{
+    outline: none;
+    border:none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: white;
+    color:#12aa45;
+    cursor:pointer;
+    font-weight: 500;
+}
+.files{
+    width:20%;
+    height: 96%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border:2px solid #9854ff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(100,200,250,.5);
+    overflow: scroll;
+}
+.files .file_name_show{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.about_files{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_files >div{
+    width: 50%;
+    margin:10px;
+}
+#folder_form .folder_name{
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
