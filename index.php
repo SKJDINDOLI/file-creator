@@ -20,7 +20,7 @@
     <div class="container">
         <div class="create_file">
             <div class="d-flex menu_bar">
-                <div class="logo"><span>File Creator</span></div>
+                <div class="logo"><img src="logo/file creator-logos_black.png" alt="logo"></div>
                 <div>Home</div>
                 <div class="position-relative">
                     <div class="menu" id="menu_icon"><span class="material-symbols-outlined">menu</span></div>
